@@ -1,0 +1,42 @@
+---
+title: "EDS-212-Day5_Boolean"
+format: html
+editor: visual
+---
+
+## Some logical operators
+
+`==` does this match?
+
+`!=` do this NOT match?
+
+`<,>,<=,>=`
+
+`&` AND
+
+`|` OR
+
+```{r}
+
+# Does 4 match "4"
+4 == "4"
+
+# With assigned variables
+cat <- 10
+dog <- 7
+
+cat > dog
+
+# is dog greate than cat OR is cat less than 20
+(dog > cat) | (cat < 20)
+
+# is dog less than cat AND cat == 10
+(dog < cat) & (cat == 10)
+
+# ---
+(dog <cat) & (cat > 2) & (4 >= dog)
+```
+
+```{r}
+
+```
